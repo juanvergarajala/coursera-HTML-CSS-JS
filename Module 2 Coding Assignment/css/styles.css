@@ -1,0 +1,105 @@
+/* Mobile version: Less than 767px */
+#main-title {
+    margin: 50px;
+    text-align: center;
+}
+
+div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid black;
+    background-color: #999999;
+}
+
+section h2 {
+    position: relative;
+    margin: 0;
+    background-color: #d59898;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+}
+
+section p {
+    padding: 10px;
+}
+
+/* Tablet version: between 768px and 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+    #main-title {
+        margin: 50px;
+        text-align: center;
+
+    }
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    section {
+        box-sizing: border-box;
+    }
+
+    #chicken {
+        width: 49%;
+        margin-right: 10px;
+    }
+
+    #beef {
+        width:49%;
+    }
+
+    #sushi {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    section h2 {
+        float: right;
+        text-align: center;
+        border: 1px solid black;
+        width: 100px;
+    }
+
+    section p {
+        padding: 10px;
+    }
+}
+
+/* Desktop version 992px and above */
+@media (min-width: 992px) {
+    #main-title {
+        margin: 50px;
+        text-align: center;
+    }
+    
+    div {
+        display: flex;
+        width: 100%;
+    }
+
+    section {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section h2 {
+        float: right;
+        text-align: center;
+        border: 1px solid black;
+        width: 100px;
+    }
+
+    section p {
+        padding: 10px;
+    }
+}
